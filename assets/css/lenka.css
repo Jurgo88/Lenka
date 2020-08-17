@@ -1,0 +1,32 @@
+.navbar-transparent .small-logo {
+    display: none;
+}
+.navbar-transparent .small-logo {
+    display: none;
+}
+.portfolio-img{
+    width: 400px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.nav-title {
+    color: #7f017f;
+    width: 88%;
+    text-align: center;
+}
+.hidden{
+    visibility: hidden;
+}
+.carousel-control-next-icon i,
+.carousel-control-prev-icon i,
+.arrows i {
+    color: #7f017f;
+    font-size: xx-large;
+}
+#pismo, #rollup, #plagat {
+    height: 700px;
+}
