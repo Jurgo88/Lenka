@@ -30,3 +30,6 @@
 #pismo, #rollup, #plagat {
     height: 700px;
 }
+.navbar-toggler{
+    color: black;
+}
