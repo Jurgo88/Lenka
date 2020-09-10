@@ -46,6 +46,22 @@ The above copyright notice and this permission notice shall be included in all c
 </head>
 
 <body class="profile-page sidebar-collapse">
+  <div class="modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          ...
+        </div>
+        
+      </div>
+    </div>
+  </div>
   <nav class="navbar navbar-transparent navbar-color-on-scroll fixed-top navbar-expand-lg" style=" color: #858585" color-on-scroll="100" id="sectionsNav">
     <div class="container">
       <span class="title" style="position: absolute; left: 1.5em; top: 0px; color: #858585; font-family: 'Poiret One'; font-size: 26px;">Lenka Horňáčeková</span>
@@ -147,7 +163,7 @@ The above copyright notice and this permission notice shall be included in all c
                   <div class="portfolio-img" style="background-image: url('../assets/img/Lenka/kaplnka 1.jpg');"></div>
                   <div class="portfolio-img" style="background-image: url('../assets/img/Lenka/ROLL UP.jpg');"></div>
                   <div class="portfolio-img" style="background-image: url('../assets/img/Lenka/KALI.jpg');"></div> -->
-                <img src="../assets/img/Lenka/1.jpg" class="rounded">
+                <img src="../assets/img/Lenka/1.jpg" class="rounded btn btn-primary" data-toggle="modal" data-target="#exampleModal">
                 <img src="../assets/img/Lenka/3.jpg" class="rounded">
                 <img src="../assets/img/Lenka/5.jpg" class="rounded">
                 <img src="../assets/img/Lenka/7.jpg" class="rounded">
