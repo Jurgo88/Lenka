@@ -39,3 +39,19 @@
     background-position: center !important;
     margin-left: 5px;
 }
+.modalText{
+    padding: 10px;
+}
+.modalImage img {
+    width: 100%;
+}
+.modal-lg{
+    max-width: 100vh;
+    max-height: 100vh;
+}
+.modal-content {
+    height: 100%;
+}
+.textImg {
+    display: none;
+}
