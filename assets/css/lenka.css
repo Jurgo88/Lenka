@@ -28,7 +28,10 @@
     font-size: xx-large;
 }
 #pismo, #rollup, #plagat {
-    height: 700px;
+    /* height: 700px; */
+}
+#snp{
+    /* height: 500px; */
 }
 .navbar-toggler{
     color: black;
@@ -54,4 +57,8 @@
 }
 .textImg {
     display: none;
+}
+
+.carousel-inner{
+    padding-bottom: 60px;
 }
